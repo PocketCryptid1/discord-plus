@@ -34,7 +34,7 @@
 /* Background color: Covers the backdrop so the app is easier to read. */
   --dplus-background-color-hue: 194;
   --dplus-background-color-saturation-amount: 1;
-  --dplus-background-color-lightness-amount: 10;
+  --dplus-background-color-lightness-amount: 1;
   --dplus-background-color-alpha: 0.8;
 }
 
@@ -68,8 +68,8 @@
 Set avatar/server radius to 50% to make them circular.
    UI radius must be in pixels, otherwise things break. */
   --dplus-radius-ui: 50px;
-  --dplus-radius-avatar: 10%;
-  --dplus-radius-server: 10%;
+  --dplus-radius-avatar: 50%;
+  --dplus-radius-server: 50%;
 
 /* This decides how much breathing room there should be between things like buttons and content. */
   --dplus-spacing-ui: 7px;
