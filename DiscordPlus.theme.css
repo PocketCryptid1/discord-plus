@@ -23,7 +23,7 @@
 /* Accent color, used to decorate the UI with colors. */
   --dplus-accent-color-hue: 184;
   --dplus-accent-color-saturation: 100%;
-  --dplus-accent-color-lightness: 74%;
+  --dplus-accent-color-lightness: 23%;
 
 /* Foreground color: For things like text and icons. */
   --dplus-foreground-color-hue-base: 210;
@@ -32,9 +32,9 @@
   --dplus-foreground-color-lightness-amount: 1;
 
 /* Background color: Covers the backdrop so the app is easier to read. */
-  --dplus-background-color-hue: 320;
+  --dplus-background-color-hue: 194;
   --dplus-background-color-saturation-amount: 1;
-  --dplus-background-color-lightness-amount: 1;
+  --dplus-background-color-lightness-amount: 10;
   --dplus-background-color-alpha: 0.8;
 }
 
@@ -67,9 +67,9 @@
 /* Round corner sizes, measured in pixel radius.
 Set avatar/server radius to 50% to make them circular.
    UI radius must be in pixels, otherwise things break. */
-  --dplus-radius-ui: 10px;
-  --dplus-radius-avatar: 20%;
-  --dplus-radius-server: 20%;
+  --dplus-radius-ui: 50px;
+  --dplus-radius-avatar: 10%;
+  --dplus-radius-server: 10%;
 
 /* This decides how much breathing room there should be between things like buttons and content. */
   --dplus-spacing-ui: 7px;
